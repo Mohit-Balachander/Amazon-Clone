@@ -243,12 +243,38 @@
   display: flex;
   color: white;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: left;
 }
 .panels-ops p {
   display: inline;
+  margin-left: 8px;
+  padding: 7px;
 }
 .panels-ops {
-  width: 70%;
   font-size: 1rem;
+}
+.panel-all {
+  margin-left: 15px;
+  padding: 7px;
+}
+
+/* ! HERO SECTION */
+.hero-section {
+  background-image: url(./Photos/image.png);
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+/* Styling Shop Section */
+.shop-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+.box {
+  border: 2px solid black;
+  height: 400px;
+  width: 23%;
 }
