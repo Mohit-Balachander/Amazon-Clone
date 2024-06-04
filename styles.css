@@ -275,11 +275,16 @@
   justify-content: space-evenly;
   background-color: #d5ebf9;
 }
+.shop-section p:hover {
+  cursor: pointer;
+  color: red;
+}
 .box {
   height: 400px;
   width: 23%;
   background-color: white;
   padding: 20px 0px 15px;
+  margin-top: 15px;
 }
 .box-img {
   height: 300px;
@@ -307,6 +312,9 @@ footer {
   justify-content: center;
   align-items: center;
   font-size: 0.85rem;
+}
+.foot-panel1:hover {
+  background-color: #4e5e72;
 }
 .foot-panel2 {
   background-color: #222f3d;
@@ -346,7 +354,24 @@ ul a:hover {
   background-size: cover;
   width: 100px;
 }
-.foot-panel4{
-  background-color: #0f1111;
+.foot-panel4 {
+  background-color: #131a22;
   color: #cccccc;
+  height: 76px;
+  font-size: 0.85rem;
+  text-align: center;
+}
+.pages {
+  font-size: 0.85rem;
+  padding-top: 25px;
+}
+.pages a {
+  margin-right: 10px;
+}
+.pages a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.copyright {
+  padding-top: 5px;
 }
