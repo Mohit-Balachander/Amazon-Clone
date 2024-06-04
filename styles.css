@@ -3,7 +3,9 @@
   font-family: Arial;
   box-sizing: border-box;
 }
-
+body {
+  padding-top: 60px;
+}
 .navbar {
   height: 60px;
   background-color: #0f1111;
@@ -11,6 +13,10 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
 }
 
 .nav-logo {
@@ -375,3 +381,6 @@ ul a:hover {
 .copyright {
   padding-top: 5px;
 }
+/* * Done by - MOHIT BALACHANDER 
+   ? GitHub  - https://github.com/Mohit-Balachander 
+   Linkedin - www.linkedin.com/in/mohit-balachander  */
